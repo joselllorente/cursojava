@@ -39,13 +39,22 @@ Empieza el juego
 
 Ejercicio 5
 ==========================================================
++ Definir array bidimensional de enteros de 4x4
++ Pedir los valores de cada posición de una en una
++ Mostrar todos los datos en formato matriz con dos for anidados
++ Por cada fila mostrar la media de los numeros
++ Mostrar los números de la diagonal
+
+
+Ejercicio 6
+==========================================================
 + Definir array bidimensional de enteros de 2x3
 + Dar los valores de cada posición de una en una
 + Mostrar todos los datos en formato matriz con dos for anidados
 + Hacer los mismo con 2 foreach
 
 
-Ejercicio 6
+Ejercicio 7
 ==========================================================
 De una matriz 4x4
 Pedir los datos de la matriz
