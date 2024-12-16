@@ -14,6 +14,18 @@ public class ArraysBidimensionales {
 			}
 			
 		}
+		
+		for ( int[] fila    :      numeros   ) {
+			for ( int numero   :    fila ) {
+				
+			}
+		}
+		
+		
+		String [] colores = {"Rojo","Amarillo","Verde"};
+		for (String string : colores) {
+			
+		}
 
 	}
 
