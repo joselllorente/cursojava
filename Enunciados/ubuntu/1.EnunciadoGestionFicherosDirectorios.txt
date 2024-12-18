@@ -1,0 +1,29 @@
+1. Crear un directorio:
+Crea un directorio llamado mi_proyecto en tu directorio de inicio.
+
+2. Navegar a un directorio:
+Muévete al directorio mi_proyecto.
+
+3. Crear un archivo vacío:
+Crea un archivo vacío llamado notas.txt dentro del directorio mi_proyecto.
+
+4. Listar el contenido del directorio:
+Lista el contenido del directorio actual para verificar que el archivo notas.txt existe.
+
+5. Copiar un archivo:
+Copia el archivo notas.txt y renómbralo como backup_notas.txt.
+
+6. Mover un archivo:
+Crea un subdirectorio llamado archivos y mueve el archivo backup_notas.txt dentro de este.
+
+7. Renombrar un archivo:
+Cambia el nombre de backup_notas.txt a respaldo_notas.txt dentro del directorio archivos.
+
+8. Eliminar un archivo:
+Elimina el archivo respaldo_notas.txt.
+
+9. Ver contenido de un archivo:
+Abre y visualiza el contenido del archivo notas.txt.
+
+10. Editar un archivo con vi:
+Edita el archivo notas.txt con vi. Agrega el texto Hola, este es mi primer archivo en la primera línea y guarda los cambios.
