@@ -27,3 +27,12 @@ Abre y visualiza el contenido del archivo notas.txt.
 
 10. Editar un archivo con vi:
 Edita el archivo notas.txt con vi. Agrega el texto Hola, este es mi primer archivo en la primera línea y guarda los cambios.
+
+
+11. Crear el fichero HolaMundo.java en la carpeta java dentro del home del usuario
+Contenido para pintar Hola Mundo por la consola
+
+12. Compilar el fichero HolaMundo.java
+
+13. Ejecuta el fichero 
+
