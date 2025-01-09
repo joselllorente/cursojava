@@ -17,6 +17,19 @@ public class Ejercicio7 {
 			}
 			System.out.println();
 		}
+		
+		System.out.println();
+		for (int i = 0; i<numeros.length; i++) {
+			for (int j = 0; j<numeros[i].length; j++) {
+				if (i==j) {
+					System.out.print(numeros[i][j]+"\t");
+				}else {
+					System.out.print("\t");
+				}
+			}
+			System.out.println();
+		}
+		
 //		System.out.println();
 //		for (int i = 0; i<numeros.length; i++) {
 //			for (int j = 0; j<numeros[i].length; j++) {
