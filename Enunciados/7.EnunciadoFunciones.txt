@@ -1,0 +1,6 @@
+
+funcion pintaMenu le vamos a pasar un array de Strings y nos va a mostrar todas las opciones que vengan en el array y al final va a pintar "Introduce una opción"
+
+
+
+funcion pintaMenu le vamos a pasar un arra de Strings y un String texto. Nos va a mostrar todas las opciones que vengan en el array y al final nos va pintar el contenido de la variable texto
