@@ -1,0 +1,31 @@
+Crear la clase Alumno
+//Variables de instancia
+nombre
+apellidos
+edad
+notaMedia
+email
+asignaturas:[]
+
+//dos Constructores 
+A- 1 que inicialice todo menos las asignaturas
+B- 1 que inicialice todas las variables de instancia
+
+//Un método estudiar()
+==0 No estudia nada
+<5  Estudia muy poco
+<7  Buen estudiante
+<10 Es muy bueno
+==10Es un genio 
+
+
+Clase Instituto con método main donde se van a crear 4 objetos de tipo Alumno
++ 2 objetos se van a crear con el constructor A
++ 1 objeto se va a crear con el constructor B
++ 1 objeto se va a crear con el constructor por defecto
+
+-Meter en un array a todos los alumnos.
+-Recorrer el array 
+	+ Mostrar el nombre
+	+ Se pone a estudiar a cada alumno 
+	+ Mostrar sus asignaturas
