@@ -1,1 +1,9 @@
-/bin/
+## Ignorar todo por defecto
+*
+
+## Excepciones: permitir src y bin
+!src/
+
+## Ignorar todo dentro de src y bin, excepto sus contenidos
+src/*
+!src/**
