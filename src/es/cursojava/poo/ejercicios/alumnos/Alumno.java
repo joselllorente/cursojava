@@ -8,6 +8,10 @@ public class Alumno {
 	private String email;
 	private String [] asignaturas;
 	
+	public Alumno() {
+		
+	}
+	
 	public Alumno(String nombre, String apellidos, int edad, double notaMedia, String email) {
 		this.nombre = nombre;
 		this.apellidos = apellidos;
