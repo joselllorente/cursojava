@@ -8,8 +8,10 @@ public class Persona {
 	private String dni;
 	private double peso;
 
+	
+	
 	public Persona() {
-		
+
 	}
 	
 	public Persona (String nombre, String apellidos, String dni, double peso) {
@@ -49,7 +51,6 @@ public class Persona {
 	public String getDni() {
 		return dni;
 	}
-	
 	
 	public void correr () {
 		System.out.print("La persona "+ this.nombre + " está corriendo");
