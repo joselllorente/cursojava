@@ -3,7 +3,10 @@
 
 ## Excepciones: permitir src y bin
 !src/
+!Enunciados/
 
 ## Ignorar todo dentro de src y bin, excepto sus contenidos
 src/*
 !src/**
+Enunciados/*
+!Enunciados/**
