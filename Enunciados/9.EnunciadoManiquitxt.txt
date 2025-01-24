@@ -31,7 +31,29 @@ Clase Maniqui
 		+ (Vestido)
 
 Clase Tienda
-	-main
-	3 Objetos de tipo Maniqui
+	-nombre
+	-Constructor
+
+	-main()
+		Llamo a 
+		1)abrirTienda()
+		2)mostrarEscaparate()
+		3)cerrarTienda()
+		
+
+
+	- abrirTienda() --> Donde se van a generar todos los objetos
+		+3 Objetos de tipo Maniqui
+
+	- mostrarEscaparate() --> Mostrar la información de cada maniqui y el precio total de la ropa que llevan
+
+	- cerrarTienda() --> Desvestir a los maniquies
+
+
+
+
+
+
+
 		
 
