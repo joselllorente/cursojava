@@ -9,6 +9,7 @@ public class Boton {
         this.color = color;
         this.forma = forma;
         this.tamanio = tamanio;
+        
     }
 
     public String getColor() {
