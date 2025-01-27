@@ -1,11 +1,19 @@
 package es.cursojava.poo.ejercicios.maniqui;
 
-public class Vestido {
+public class Camisa {
     private String color;
     private String talla;
     private double precio;
-    
-    public Vestido(String color, String talla, double precio) {
+    private Boton [] botones;
+
+    public Camisa(String color, String talla, double precio, Boton[] botones) {
+        this.color = color;
+        this.talla = talla;
+        this.precio = precio;
+        this.botones = botones;
+    }
+
+    public Camisa(String color, String talla, double precio) {
         this.color = color;
         this.talla = talla;
         this.precio = precio;
@@ -35,5 +43,16 @@ public class Vestido {
         this.precio = precio;
     }
 
+    public Boton[] getBotones() {
+        return botones;
+    }
+
+    public void setBotones(Boton[] botones) {
+        this.botones = botones;
+    }
+
+
+
     
+
 }
