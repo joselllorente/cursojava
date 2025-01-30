@@ -43,13 +43,7 @@ public class Sala {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Sala ");
-        sb.append("").append(numero);
-        sb.append(", tituloPelicula=").append(tituloPelicula);
-        sb.append("");
-        return sb.toString();
+        return "Sala [numero=" + numero + ", tituloPelicula=" + tituloPelicula + "]";
     }
-
 
 }
