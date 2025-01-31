@@ -8,12 +8,16 @@ public class Animal {
 
     // }
 
+    
+
     public Animal(String nombre, double peso) {
         super();
         this.nombre = nombre;
         this.peso = peso;
-        super.toString();
-        
+    }
+
+    public Animal(String nombre) {
+        this.nombre = nombre;
     }
 
     public String getNombre() {

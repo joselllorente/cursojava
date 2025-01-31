@@ -8,8 +8,13 @@ public class Leon extends Animal{
         this.tieneMelena = tieneMelena;
     }
 
+    public Leon (boolean tieneMelena, String nombre){
+        super(nombre);
+        this.tieneMelena = tieneMelena;
+    }
+
     public void cazar(){
-        System.out.println("El leon "+getNombre() +" está cazando");
+        System.out.println("El leon "+ this.getNombre() +" está cazando");
     }
 
 }
