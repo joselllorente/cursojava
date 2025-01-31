@@ -1,0 +1,70 @@
+Ejercicio de Herencia en Java: Vehículos
+
+Crea una jerarquía de clases para representar diferentes tipos de vehículos. La clase base será `Vehiculo` y tendrá las siguientes características:
+
+1. Atributos:
+    - `marca` (String)
+    - `modelo` (String)
+    - `anio` (int)
+    - `velocidadMaxima` (double)
+    - tipo (String)//Diesel, Gasolina, Electrico, Hibrido
+
+
+2. Métodos:
+    - Constructor que inicialice todos los atributos.
+    - Métodos getters y setters para cada atributo.
+    - void mostrarInformacion(): Muestra la información básica del vehículo (marca, modelo, año y tipo).    
+
+A partir de la clase `Vehiculo`, crea las siguientes clases derivadas:
+
+1. `Coche`:
+    - Atributos adicionales:
+      - `numeroPuertas` (int)
+      - tieneAireAcondicionado (boolean)
+
+    - Métodos:
+      - Constructor que inicialice todos los atributos, incluyendo los de la clase base.
+      - Métodos getters y setters para el nuevo atributo.
+      - void mostrarInformacion(): Sobrescribe el método para mostrar también el número de puertas y si tiene aire acondicionado.
+
+2. `Motocicleta`:
+    - Atributos adicionales:
+      - tieneSidecar (boolean)
+      - cilindrada (int)
+    - Métodos:
+      - Constructor que inicialice todos los atributos, incluyendo los de la clase base.
+      - Métodos getters y setters para el nuevo atributo.
+      - void mostrarInformacion(): Sobrescribe el método para mostrar también si tiene sidecar y la cilindrada.
+3. `Camion`:
+    - Atributos adicionales:
+      - `capacidadCarga` (double)
+      - numeroEjes (int)
+    - Métodos:
+      - Constructor que inicialice todos los atributos, incluyendo los de la clase base.
+      - Métodos getters y setters para el nuevo atributo.
+      - void mostrarInformacion(): Sobrescribe el método para mostrar también la capacidad de carga y el número de ejes.
+
++Implementa un programa principal que cree instancias de cada tipo de vehículo .
++Muestra la información de cada vehículo utilizando el método mostrarInformacion().
+
+=================================================================================
++Agrega un método calcularImpuesto() en la clase Vehiculo teniendo en cuenta que 
+el impuesto base es 200€ y teniendo en cuenta el año del vehículo, y el tipo 
+    - un 5% más del precio si el vehículo tiene más de 10 años.
+    - un 10% más del precio si el vehículo tiene más de 20 años.
+    - un 10% más si es Diesel o Gasolina
+    - un 10% menos si es Electrico
+    - un 5% menos si es Híbrido
+    - Un 10% más si es camión
+    - Un 5% más si es coche
+    - Un 5% menos si es moto
+
+Calcular el impuesto de cada vehiculo
+
+=================================================================================
+Crear clase Garaje 
+La clase tendrá un limite de plazas para cada tipo de vehiculo y para las motos solo se admitiran las que no tienen sidecar
+Aparcar los vehiculos en su plaza correspondiente y si un vehiculo se queda sin plaza se indica
+
+=======================================
+Garaje con 3 plantas, en la planta1 es para camiones, la planta2 para coches y la planta3 para motos

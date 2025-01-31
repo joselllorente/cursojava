@@ -17,4 +17,12 @@ public class Leon extends Animal{
         System.out.println("El leon "+ this.getNombre() +" está cazando");
     }
 
+    @Override
+    public void comer() {
+        super.comer();
+        System.out.println("Ferozmente");
+    }
+
+
+    
 }
