@@ -74,26 +74,32 @@ public class Vehiculo {
 
     public double calcularImpuesto(){
         double impuestoBase=200;
-        double impuesto=0;
+        double impuesto=1;
         int anioActual = LocalDate.now().getYear();
 
-        if(anioActual-anio>20){
-            impuesto=0.1;
+        if(anioActual-this.anio>20){
+            impuesto+=0.1;
         }else if (anioActual-anio>10){
-            impuesto=0.05;
+            impuesto+=0.05;
         }
 
         if(tipo.equals("Diesel") || tipo.equals("Gasolina")){
             impuesto += 0.1;
         }else if (tipo.equals("Híbrido")){
-            impuesto -= 0.1;
-        }else if (tipo.equals("Eléctrico")){
             impuesto -= 0.05;
+        }else if (tipo.equals("Eléctrico")){
+            impuesto -= 0.1;
         }
 
+        // if (this instanceof Coche){
+        //     impuesto += 0.05;
+        // }else if (this instanceof Motocicleta){
+        //     impuesto -= 0.05;
+        // }else if (this instanceof Camion){
+        //     impuesto += 0.10;
+        // }
 
-
-
+        //impuesto = impuestoBase * impuesto;
         return impuesto;
     }
 }

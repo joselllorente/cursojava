@@ -37,5 +37,23 @@ public class Coche extends Vehiculo {
         return sb.toString();
     }
 
+    public void volar(){
+        System.out.println("Coche volando");
+    }
+
+    @Override
+    public void mostrarInformacion(){
+        System.out.println("Soy un coche que puede volar");
+    }
+
+    @Override
+    public double calcularImpuesto() {
+        double impuesto = super.calcularImpuesto();
+
+        impuesto += 0.05; 
+        impuesto = 200 * impuesto;
+        return impuesto;
+    }
+
 
 }

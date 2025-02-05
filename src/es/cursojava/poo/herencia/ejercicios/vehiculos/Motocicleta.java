@@ -36,4 +36,13 @@ public class Motocicleta extends Vehiculo{
         sb.append('}');
         return sb.toString();
     }
+
+    @Override
+    public double calcularImpuesto() {
+        double impuesto = super.calcularImpuesto();
+
+        impuesto -= 0.05; 
+        impuesto = 200 * impuesto;
+        return impuesto;
+    }
 }
