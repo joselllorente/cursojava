@@ -4,6 +4,7 @@
 ## Excepciones: permitir src y bin
 !src/
 !Enunciados/
+!pom.xml
 
 ## Ignorar todo dentro de src y bin, excepto sus contenidos
 src/*
