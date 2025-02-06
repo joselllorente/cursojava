@@ -1,6 +1,6 @@
 package es.cursojava.poo.herencia.ejercicios.vehiculos;
 
-public class Motocicleta extends Vehiculo{
+public class Motocicleta extends VehiculoMotorizado{
     private boolean tieneSidecar;
     private int cilindrada;
 
@@ -45,4 +45,12 @@ public class Motocicleta extends Vehiculo{
         impuesto = 200 * impuesto;
         return impuesto;
     }
+
+    @Override
+    public int acelerar() {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    
 }

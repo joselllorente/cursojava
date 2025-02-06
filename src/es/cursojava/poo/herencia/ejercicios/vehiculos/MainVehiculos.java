@@ -3,6 +3,7 @@ package es.cursojava.poo.herencia.ejercicios.vehiculos;
 public class MainVehiculos {
 
     public static void main(String[] args) {
+        //Vehiculo v = new Vehiculo(null, null, 0, 0, null);
         Vehiculo coche = new Coche("Toyota", "Corolla", 2020, 200,"Diesel",5,true);
         coche.mostrarInformacion();
         double importe = coche.calcularImpuesto();

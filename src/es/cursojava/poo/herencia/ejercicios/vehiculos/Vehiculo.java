@@ -2,7 +2,7 @@ package es.cursojava.poo.herencia.ejercicios.vehiculos;
 
 import java.time.LocalDate;
 
-public class Vehiculo {
+public abstract class Vehiculo {
     private String marca;
     private String modelo;
     private int anio;
@@ -102,5 +102,7 @@ public class Vehiculo {
         //impuesto = impuestoBase * impuesto;
         return impuesto;
     }
+
+    public abstract int acelerar();
 }
 
