@@ -4,7 +4,8 @@ public class Motocicleta extends VehiculoMotorizado{
     private boolean tieneSidecar;
     private int cilindrada;
 
-    public Motocicleta(String marca, String modelo, int anio, double velocidadMaxima, String tipo, boolean tieneSidecar, int cilindrada) {
+    public Motocicleta(String marca, String modelo, int anio, double velocidadMaxima, 
+            String tipo, boolean tieneSidecar, int cilindrada) {
         super(marca, modelo, anio, velocidadMaxima, tipo);
         this.tieneSidecar = tieneSidecar;
         this.cilindrada = cilindrada;

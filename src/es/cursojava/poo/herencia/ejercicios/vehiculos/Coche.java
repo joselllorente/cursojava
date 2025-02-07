@@ -41,10 +41,6 @@ public final class Coche extends VehiculoMotorizado {
         System.out.println("Coche volando");
     }
 
-    @Override
-    public void mostrarInformacion(){
-        System.out.println("Soy un coche que puede volar");
-    }
 
     @Override
     public double calcularImpuesto() {

@@ -1,6 +1,6 @@
 package es.cursojava.poo.herencia.ejercicios.vehiculos;
 
-public class Camion extends Vehiculo{
+public class Camion extends VehiculoMotorizado{
     private double capacidadCarga;
     private int numeroEjes;
 
@@ -45,4 +45,12 @@ public class Camion extends Vehiculo{
         impuesto = 200 * impuesto;
         return impuesto;
     }
+
+    @Override
+    public int acelerar() {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    
 }
