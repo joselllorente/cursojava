@@ -49,9 +49,20 @@ public class Motocicleta extends VehiculoMotorizado{
 
     @Override
     public int acelerar() {
-        // TODO Auto-generated method stub
+
         return 0;
     }
 
+    @Override
+    public void encender() {
+        System.out.println("Arrancando la moto");
+        
+    }
+
+    @Override
+    public void apagar() {
+        System.out.println("Apagando la moto");
+        
+    }
     
 }

@@ -57,5 +57,18 @@ public final class Coche extends VehiculoMotorizado {
         return 0;
     }
 
+    @Override
+    public void encender() {
+        System.out.println("Arrancando el coche");
+        
+    }
+
+    @Override
+    public void apagar() {
+        System.out.println("Apagando el coche");
+        
+    }
+
+    
     
 }
