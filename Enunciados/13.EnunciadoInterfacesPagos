@@ -1,0 +1,14 @@
+Ejercicio: Sistema de Pago con Interfaces
+=========================================
+Imagina que estás desarrollando un sistema de pagos para una tienda en línea. Debes crear una interfaz Pago que defina un método procesarPago(double monto). Luego, crea tres clases que implementen esta interfaz:
+
+PagoTarjetaCredito: Simula un pago con tarjeta de crédito e imprime un mensaje confirmando el pago.
+PagoPayPal: Simula un pago con PayPal e imprime un mensaje confirmando el pago.
+PagoCriptomoneda: Simula un pago con criptomonedas e imprime un mensaje confirmando el pago.
+
+Además, debes crear una clase ProcesadorPagos que tenga un método realizarPago(Pago metodoPago, double monto) que reciba un objeto de tipo Pago y llame al método procesarPago().
+
+Requisitos:
+Usa una interfaz para definir el comportamiento común.
+Implementa tres clases con su propia versión de procesarPago.
+Implementa una clase principal (Main) para probar el sistema.
