@@ -69,6 +69,28 @@ public final class Coche extends VehiculoMotorizado {
         
     }
 
-    
+    @Override
+    public void select() {
+        System.out.println("Consultando el coche");
+    }
+
+    @Override
+    public void delete() {
+        System.out.println("Borrando coche");
+        
+    }
+
+    @Override
+    public void insert() {
+        System.out.println("Insertando coche");
+        
+    }
+
+    @Override
+    public void update() {
+        System.out.println("Actualizando coche");
+        
+    }
+
     
 }

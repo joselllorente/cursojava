@@ -2,7 +2,7 @@ package es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos;
 
 import es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos.interfaces.Operable;
 
-public class Ordenador extends ProductosElectronicos implements Operable {
+public final class Ordenador extends ProductosElectronicos implements Operable {
 
     private String procesador;
 
@@ -36,5 +36,28 @@ public class Ordenador extends ProductosElectronicos implements Operable {
         System.out.println("Suspendiendo ordenador");
     }
 
-   
+    @Override
+    public void select() {
+        System.out.println("Consultando el ordenador "+getNombre());
+    }
+
+    @Override
+    public void delete() {
+        System.out.println("Borrando ordenador");
+        
+    }
+
+    @Override
+    public void insert() {
+        System.out.println("Insertando ordenador");
+        
+    }
+
+    @Override
+    public void update() {
+        System.out.println("Actualizando ordenador");
+        
+    }
+
+    
 }

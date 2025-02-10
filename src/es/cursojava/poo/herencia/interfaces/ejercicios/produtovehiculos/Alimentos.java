@@ -1,6 +1,8 @@
 package es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos;
 
-public abstract class Alimentos extends Producto {
+import es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos.interfaces.Insertable;
+
+public abstract class Alimentos extends Producto implements Insertable{
 
     private String fechaCaducidad;
 

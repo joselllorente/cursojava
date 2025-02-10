@@ -2,7 +2,9 @@ package es.cursojava.poo.herencia.ejercicios.vehiculos;
 
 import java.time.LocalDate;
 
-public abstract class Vehiculo {
+import es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos.interfaces.Consultable;
+
+public abstract class Vehiculo implements Consultable{
     private String marca;
     private String modelo;
     private int anio;

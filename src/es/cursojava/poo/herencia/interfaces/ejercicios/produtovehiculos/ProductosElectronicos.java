@@ -1,9 +1,10 @@
 package es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos;
 
 import es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos.interfaces.Apagable;
+import es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos.interfaces.Deletable;
 import es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos.interfaces.Encendible;
 
-public abstract class ProductosElectronicos extends Producto implements Encendible, Apagable {
+public abstract class ProductosElectronicos extends Producto implements Encendible, Apagable , Deletable{
 
     private String fechaFabricacion;
 

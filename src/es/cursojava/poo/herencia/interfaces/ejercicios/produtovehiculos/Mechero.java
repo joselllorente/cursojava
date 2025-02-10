@@ -16,6 +16,10 @@ public class Mechero extends Producto implements Encendible{
         
     }
 
+    @Override
+    public void select() {
+        System.out.println("Consultando el mechero");
+    }
     
 
 }

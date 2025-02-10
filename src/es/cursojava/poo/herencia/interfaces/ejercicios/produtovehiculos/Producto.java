@@ -1,6 +1,8 @@
 package es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos;
 
-public abstract class Producto {
+import es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos.interfaces.Consultable;
+
+public abstract class Producto implements Consultable{
 
     private String nombre;
     private int precio;

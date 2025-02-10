@@ -3,7 +3,9 @@ package es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos;
 import es.cursojava.poo.herencia.ejercicios.vehiculos.Bicicleta;
 import es.cursojava.poo.herencia.ejercicios.vehiculos.Coche;
 import es.cursojava.poo.herencia.ejercicios.vehiculos.Vehiculo;
+import es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos.interfaces.Consultable;
 import es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos.interfaces.Encendible;
+import es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos.interfaces.Insertable;
 import es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos.interfaces.Operable;
 
 public class MainProductosVehiculos {
@@ -27,6 +29,16 @@ public class MainProductosVehiculos {
         Encendible [] arrayEncendible = {coche, ordenador,mechero};
         enciende(mechero);
         //operable(coche);
+        consulta(coche);
+    }
+
+
+    private void consulta (Consultable consulta){
+        consulta.select();
+    }
+
+    private void insertObject (Insertable objeto){
+        objeto.insert();
     }
 
 

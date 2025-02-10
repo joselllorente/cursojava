@@ -1,6 +1,6 @@
 package es.cursojava.poo.herencia.interfaces.ejercicios.produtovehiculos;
 
-public class Tarta extends Alimentos {
+public final class Tarta extends Alimentos {
 
     private String sabor;
 
@@ -17,4 +17,16 @@ public class Tarta extends Alimentos {
         this.sabor = sabor;
     }
 
+    @Override
+    public void select() {
+        System.out.println("Consultando la Tarta");
+    }
+
+    @Override
+    public void insert() {
+        System.out.println("Insertando Tarta");
+    }
+
+    
+    
 }
