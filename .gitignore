@@ -6,6 +6,7 @@
 !Enunciados/
 !pom.xml
 !lib/
+!Imagenes/
 
 ## Ignorar todo dentro de src y bin, excepto sus contenidos
 src/*
@@ -14,3 +15,5 @@ Enunciados/*
 !Enunciados/**
 lib/*
 !lib/**
+Imagenes/*
+!Imagenes/**
