@@ -1,0 +1,22 @@
+==================== Parte 1: Colecciones ====================
+
+1. Creamos 6 alumnos
+
+2. Los metemos todos en una lista
+
+3. Creamos un método para mostrar la info de todos los alumnos
+
+4. Otro método el cual se preguntará por el nombre de un alumno y os dará la notaMedia de todos los alumnos que se llamen igual
+
+5. (Último que se hace)Actualizar para todos los alumnos suspensos su notaMedia a 0
+
+
+==================== Parte 2: Mapas ====================
+Vamos a separar a los alumnos por aulas,
+aula1 -> 2 alumnos
+aula2 -> 2 alumnos
+aula3 -> 2 alumnos
+
+Mostrar por cada aula los datos de los alumno
+
+Indicar cual es el aula que tiene el alumno con la nota media más alta
