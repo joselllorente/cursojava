@@ -8,7 +8,7 @@
 
 4. Otro método el cual se preguntará por el nombre de un alumno y os dará la notaMedia de todos los alumnos que se llamen igual
 
-5. (Último que se hace)Actualizar para todos los alumnos suspensos su notaMedia a 0
+5. (Último que se hace)Eliminar los alumnos que esten suspensos de la lista
 
 
 ==================== Parte 2: Mapas ====================
