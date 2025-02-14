@@ -20,3 +20,9 @@ aula3 -> 2 alumnos
 Mostrar por cada aula los datos de los alumno
 
 Indicar cual es el aula que tiene el alumno con la nota media más alta
+
+
+==================== Parte 3: Mapas Advanced ====================
+Colegio: nombre, direccion, Map<"String",List<Alumno>>
+3 colegios -> Meterlos en una lista
+recorrer la lista de colegios para mostrar los datos del colegios, el nombre de cada aula del colegio y por cada aula, el nombre,  el apellido y la nota media de sus alumnos
