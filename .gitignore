@@ -7,13 +7,17 @@
 !pom.xml
 !lib/
 !Imagenes/
+!Documentacion/
 
 ## Ignorar todo dentro de src y bin, excepto sus contenidos
 src/*
 !src/**
 Enunciados/*
 !Enunciados/**
+!Documentacion/** */
 lib/*
 !lib/**
 Imagenes/*
 !Imagenes/**
+Documentacion/*
+!Documentacion/**
