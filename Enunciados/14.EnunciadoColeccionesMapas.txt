@@ -23,6 +23,35 @@ Indicar cual es el aula que tiene el alumno con la nota media más alta
 
 
 ==================== Parte 3: Mapas Advanced ====================
-Colegio: nombre, direccion, Map<"String",List<Alumno>>
+Colegio: nombre, direccion, Map<"String",List<Alumno>> aulas
 3 colegios -> Meterlos en una lista
 recorrer la lista de colegios para mostrar los datos del colegios, el nombre de cada aula del colegio y por cada aula, el nombre,  el apellido y la nota media de sus alumnos
+
+
+colegios.get(0).getAulas().get("aula1")get(0).getNombre()
+
+==================== Parte 4: Mapas Super Advanced ====================
+Tarea: Sistema de Gestión de Pedidos con Map en Java
+Tienes una empresa con varios almacenes, cada uno identificado por su código único (String). Cada almacén contiene varios productos, con sus respectivas cantidades en stock. Debes gestionar estos almacenes y realizar operaciones avanzadas con Map<String, Map<String, Integer>> en Java.
+
+1. Representar los datos
+Un Map<String, Map<String, Integer>> donde:
+    -Clave principal (String): ID del almacén.
+    -Valor (Map<String, Integer>): Otro Map que asocia un nombre de producto (String) con su cantidad en stock (Integer).
+
+2. Implementar métodos:
+
++ agregarProducto(String almacen, String producto, int cantidad):
+    Si el almacén no existe, créalo.
+    Si el producto ya existe en ese almacén, incrementa su stock.
++ eliminarProducto(String almacen, String producto):
+    Elimina un producto del almacén dado.
++ transferirStock(String origen, String destino, String producto, int cantidad):
+    Mueve productos de un almacén a otro.
+    Si el stock es insuficiente, lanza una excepción.
++ buscarProducto(String producto) -> List<String>:
+    Devuelve una lista con los nombres de los almacenes que tienen stock de ese producto.
++ obtenerStockTotal(String producto) -> int:
+    Devuelve el stock total disponible en todos los almacenes de un producto dado.
+
+Ordena los almacenes por cantidad total de productos.
