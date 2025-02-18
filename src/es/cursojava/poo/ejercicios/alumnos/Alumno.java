@@ -1,5 +1,7 @@
 package es.cursojava.poo.ejercicios.alumnos;
 
+import java.util.Arrays;
+
 public class Alumno {
 	private String nombre;
 	private String apellidos;
@@ -83,6 +85,12 @@ public class Alumno {
 		}else if (notaMedia==10) {
 			System.out.println("Es un genio");
 		}
+	}
+
+	@Override
+	public String toString() {
+		return "Alumno [nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad + ", notaMedia=" + notaMedia
+				+ ", email=" + email + ", asignaturas=" + Arrays.toString(asignaturas) + "]";
 	}
 	
 	
