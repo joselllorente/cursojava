@@ -1,0 +1,44 @@
+Ejercicio 1
+=============================================
+Crear la tabla usuarios:
+
+Columnas:
+    id: Entero, clave primaria y autoincrementable.
+    nombre: Cadena de caracteres (VARCHAR(50)), no nula.
+    email: Cadena de caracteres (VARCHAR(100)), no nula y única.
+    fecha_registro: Fecha, con valor por defecto (CURRENT_DATE)
+
+Modificar la tabla para añadir una columna: Agregar la columna telefono de tipo VARCHAR(15) que permita valores nulos.
+
+Modificar el tipo de datos de la columna nombre: Cambiar la definición de nombre a VARCHAR(100).
+
+Ejercicio 2
+=============================================
+1. Creación de la tabla productos
+Requisitos:
+Campos y restricciones:
+    id: Entero, clave primaria y autoincrementable.
+    nombre: Cadena de caracteres (VARCHAR(100)), no nulo.
+    descripcion: Texto (TEXT), puede ser nulo.
+    precio: Número decimal (DECIMAL(8,2)), no nulo y debe ser mayor o igual a 0.
+    stock: Entero, no nulo y con valor por defecto 0.
+    fecha_registro: Fecha y hora (DATETIME), con valor por defecto la fecha y hora actual.
+    descuento: Número entero, que representa el porcentaje de descuento (entre 0 y 100).
+    (Se usará una restricción CHECK para validar este rango.)
+    estado: Cadena de caracteres (ENUM) que solo puede tener los valores 'activo' o 'inactivo', con valor por defecto 'activo'.
+
+
+2. Modificación de la tabla productos
+a) Añadir nuevas columnas
+Agregar la columna categoria:
+Tipo VARCHAR(50), no nulo.
+
+Agregar la columna proveedor:
+Tipo VARCHAR(100), que permita nulos.
+
+b) Modificar el tipo de datos de la columna descripcion
+Cambiar el tipo de datos de descripcion de TEXT a VARCHAR(500) para limitar la longitud a 500 caracteres.
+
+
+3. Eliminación de la tabla productos
+Una vez realizados los ejercicios y pruebas, se eliminará la tabla.
