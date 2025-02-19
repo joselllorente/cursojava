@@ -18,7 +18,7 @@ public class Ejercicio14Parte2 {
         e14p2.mostrarNotaMediaMasAlta(mapaAulas);
     }
 
-    private Map<String,List<Alumno>> generarMapa (List<Alumno> alumnos){
+    Map<String,List<Alumno>> generarMapa (List<Alumno> alumnos){
         Map<String,List<Alumno>> mapa = new LinkedHashMap<>();
 
         mapa.put("aula1", alumnos.subList(0, 2));
