@@ -50,6 +50,13 @@ public class Colegio {
         return "Colegio [nombre=" + nombre + ", direccion=" + direccion + ", aulas=" + aulas + "]";
     }
 
-    
+    public void guadarAlumno (String aula, Alumno alumno){
+        this.aulas.get(aula).add(alumno);
+    }
+
+    public void guadarAlumnos (String aula, List<Alumno> alumnos){
+        this.aulas.get(aula).addAll(alumnos);
+        //List<Alumno> alumnosAntiguos = this.aulas.put(aula, alumnos);
+    }
 
 }
