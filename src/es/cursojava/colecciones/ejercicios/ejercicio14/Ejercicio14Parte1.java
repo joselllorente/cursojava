@@ -27,24 +27,33 @@ public class Ejercicio14Parte1 {
         System.out.println("=================================");
         e14p1.mostrarInfoAlumnos(listaAlumnos1);
     }
+    static List<Alumno> generarAlumnos (int numAlumnos){ 
+        List<Alumno> listaAlumnos = new CopyOnWriteArrayList<>();
 
+        for (int i = 0; i < numAlumnos; i++) {
+            Alumno alumno = new Alumno("N"+i,"A"+i,22,Math.random()*10,"adasd@asdasd.es");
+            listaAlumnos.add(alumno);
+        }
+
+        return listaAlumnos;
+    }
     static List<Alumno> generarAlumnos (){
-        List<Alumno> listaAlumnos1 = new CopyOnWriteArrayList<>();
+        // List<Alumno> listaAlumnos1 = new CopyOnWriteArrayList<>();
 
-        Alumno alumno = new Alumno("N1","A1",22,2,"adasd@asdasd.es");
-        Alumno alumno1 = new Alumno("N2","A2",22,3,"adasd@asdasd.es");
-        Alumno alumno2 = new Alumno("N3","A3",22,4,"adasd@asdasd.es");
-        Alumno alumno3= new Alumno("N4","A4",22,2,"adasd@asdasd.es");
-        Alumno alumno4 = new Alumno("N2","A5",22,0,"adasd@asdasd.es");
-        Alumno alumno5 = new Alumno("N6","A6",22,0,"adasd@asdasd.es");
+        // Alumno alumno = new Alumno("N1","A1",22,2,"adasd@asdasd.es");
+        // Alumno alumno1 = new Alumno("N2","A2",22,3,"adasd@asdasd.es");
+        // Alumno alumno2 = new Alumno("N3","A3",22,4,"adasd@asdasd.es");
+        // Alumno alumno3= new Alumno("N4","A4",22,2,"adasd@asdasd.es");
+        // Alumno alumno4 = new Alumno("N2","A5",22,0,"adasd@asdasd.es");
+        // Alumno alumno5 = new Alumno("N6","A6",22,0,"adasd@asdasd.es");
 
-        listaAlumnos1.add(new Alumno("N1","A1",22,9,"adasd@asdasd.es"));
-        listaAlumnos1.add(alumno1);
-        listaAlumnos1.add(alumno2);
-        listaAlumnos1.add(alumno3);
-        listaAlumnos1.add(alumno4);
-        listaAlumnos1.add(alumno5);
-
+        // listaAlumnos1.add(new Alumno("N1","A1",22,9,"adasd@asdasd.es"));
+        // listaAlumnos1.add(alumno1);
+        // listaAlumnos1.add(alumno2);
+        // listaAlumnos1.add(alumno3);
+        // listaAlumnos1.add(alumno4);
+        // listaAlumnos1.add(alumno5);
+        List<Alumno> listaAlumnos1=generarAlumnos (6);
         return listaAlumnos1;
     }
 
