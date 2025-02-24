@@ -6,6 +6,8 @@ CREATE TABLE usuarios (
     fecha_registro DATE DEFAULT SYSDATE
 );
 
+SELECT SYSDATE from dual;
+
 -- 2. Modificar la tabla para añadir la columna "telefono"
 ALTER TABLE usuarios
 ADD (telefono VARCHAR2(15));
