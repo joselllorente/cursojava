@@ -1,0 +1,12 @@
+Ejercicio1
+===========================================================================
+Crea la clase NotaInvalidaException que extienda de Exception.
+Esta excepción debe incluir un constructor que reciba un mensaje de error.
+
+En el constructor de la clase Alumno, valida que:
++La edad sea mayor que 0. Si no, lanza una IllegalArgumentException.
++La nota esté en el rango de 0 a 10. Si no, lanza una excepción personalizada NotaInvalidaException.
+
+Clase Principal:
+Desarrolla una clase con el método main() que solicite al usuario ingresar los datos de 5 alumnos.
+Utiliza un bloque try-catch para capturar y manejar tanto IllegalArgumentException como NotaInvalidaException, mostrando mensajes de error adecuados en cada caso pero que siga pidiendo los datos de los siguientes alumnos si hay una excepción.
