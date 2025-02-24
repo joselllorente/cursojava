@@ -10,3 +10,42 @@ En el constructor de la clase Alumno, valida que:
 Clase Principal:
 Desarrolla una clase con el método main() que solicite al usuario ingresar los datos de 5 alumnos.
 Utiliza un bloque try-catch para capturar y manejar tanto IllegalArgumentException como NotaInvalidaException, mostrando mensajes de error adecuados en cada caso pero que siga pidiendo los datos de los siguientes alumnos si hay una excepción.
+
+Ejercicio2
+===========================================================================
+
+Cliente
+	nombre
+
+	+Huesped
+	 	dni
+
+	+Comensal
+		tieneReserva
+
+	+ClienteAsiduo
+		mote
+
+
+TazaCafe
+	tipoCafe
+	temperatura
+
+Solo los comensales y los clientes asiduos pueden tomar café.
+
+Si cuando un cliente se toma una taza de café el café está muy caliente (>80º) se va a lanzar la excepción 
+TooHotTemperatureException y si está muy frío (<20º) se va a lanza la excepción TooColdTemperatureException. 
+Ambas excepciones heredan de TemperatureException
+
+
+Bar
+	nombre	
+	
+	main()--> abrirBar()
+		1 x Huésped
+		1 x Comensal
+		1 x ClienteAsiduo
+
+
+	método para que todos los clientes que puedan tomar café lo puedan tomar
+		(se crean una taza de cafe para cada cliente que pueda tomar café)
