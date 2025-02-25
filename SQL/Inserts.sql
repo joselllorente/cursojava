@@ -1,0 +1,1 @@
+INSERT INTO usuarios VALUES ('NOMBRE1', 'nombre1@asdas.es',SYSDATE, '123-123-123');

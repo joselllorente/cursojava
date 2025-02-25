@@ -8,6 +8,7 @@
 !lib/
 !Imagenes/
 !Documentacion/
+!SQL/
 
 ## Ignorar todo dentro de src y bin, excepto sus contenidos
 src/*
@@ -21,3 +22,5 @@ Imagenes/*
 !Imagenes/**
 Documentacion/*
 !Documentacion/**
+SQL/*
+!SQL/** 
