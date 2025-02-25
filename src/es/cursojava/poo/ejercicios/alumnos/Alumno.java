@@ -1,6 +1,9 @@
 package es.cursojava.poo.ejercicios.alumnos;
 
+import java.sql.SQLException;
 import java.util.Arrays;
+
+import es.cursojava.excepciones.ejercicio1.NotaInvalidaException;
 
 public class Alumno {
 	private String nombre;
@@ -33,7 +36,19 @@ public class Alumno {
 		this.asignaturas = asignaturas;
 	}
 
+	public Alumno(String nombre, int edad, double notaMedia) throws NotaInvalidaException {
+		if (edad<=0){
+			throw new IllegalArgumentException("La edad tiene que ser mayor que 0");
+		}
+		if (notaMedia<0 || notaMedia>10){
+			throw new NotaInvalidaException("La nota tiene que estar entre 0 y 10");
+		}
 
+		this.nombre = nombre;
+		this.edad = edad;
+		this.notaMedia = notaMedia;
+
+	}
 
 	public String getNombre() {
 		return nombre;

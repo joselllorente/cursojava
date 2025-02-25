@@ -14,6 +14,14 @@ public class Utilidades {
 		return numero;
 	}
 	
+	public static double pideDatoDecimal(String texto) {
+		System.out.println(texto);
+		Scanner scan = new Scanner(System.in);
+		double numero = scan.nextInt();
+		
+		return numero;
+	}
+
 	/**
 	 * 
 	 * @param texto

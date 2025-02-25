@@ -1,5 +1,6 @@
-
 public class HolaMundo {
+	//private static final Logger logger = LoggerFactory.getLogger(MiClase.class);
+
 	public static void main (String[] args) {
 		//Comentario de línea
 		
